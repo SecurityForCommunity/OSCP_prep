@@ -1,0 +1,75 @@
+TryHackMe Pentest+ tamamla
+Udemy courses bul - blackfriday öncesi alım yap
+YouTube BOF cyber mentor ayarla
+Python for pentester TCM - olmazsa kurs ayarla
+Bash scripting için kurs ayarla - TryHackMe+TCM+YouTube yapılabilir
+Linux tarafı için TCM kursunun üzerinden geç
+RedTeam yada Pentest Cert veren kurs al
+    - Cybrary ve Udemy'ye bakılabilir
+    - TCM bakılabilir
+BurpSuite Certified Practitioner sertifikası alındı. 
+    - OSCP lablarını çöz.
+    - Notlarını al.
+    - OSCP hemen sonrası bunu al
+  
+TryHackMe sonrası Vulnhub ve HackTheBox'tan (min 10 makina) devam etmeli.
+    - olabildiğince video izle
+    - usullerle ilgili not çıkart
+
+Sınavda hangi web app attackları dahildir?
+    - Öğren ve BurpSuite Lab'ta ilerlet
+    - SQLi, XSS, LFI, RFI, Command Execution
+
+Faydalı toolbox oluştur. Kuruluş ve kullanımı ile ilgili notlar çıkart/topla
+    - NMAP Automator yada AutoRecon kullan
+
+Not alma ile ilgili GitHub'a başla :)
+    - Örnek OSCP github repolarını incele
+    - neler nasıl olmalı?
+
+Sınavda kullanılacak Kali'yi düzenle. Yedekle
+
+NMAP NSE scripting öğren
+
+Wireshark ilerlet
+
+File Transfers konusu
+
+Passwd attacks
+
+PWK kursu hazırlıkları
+    - PDF'ten çalış - hergün ne kadar ilerleneceği ile ilgili planlama yap
+    - Videoları izle
+    - Labları takip et
+    - Lab süresi bitmeye yakın son 3-4 gün tüm uğraşılan makinaların üzerinden geç
+    
+BufferOverFlow için TCM'den çalış. PWK materyalleri başarılı değil.
+    - Buffer Overflows Made Easy - CyberMentor - 8 video - 1 saat - https://www.youtube.com/playlist?list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G
+    - Buffer Overflow Guide - JohnJHacking - https://github.com/johnjhacking/Buffer-Overflow-Guide
+    - TryHackMe Buffer Overflowlarını çöz
+    
+
+PrivilegeEscalation için CyberMentor Udemy kursu ayda TCM kursu içinde varsa faydalan
+    - Linux privilege escalation
+    - Windows privilege escalation
+    
+Metasploit için
+    - Offensive Security Metasploit Unleashed 
+    - Post exploitation kısmı için gerekli. 
+    - 1 kez kullan
+    - https://www.offensive-security.com/metasploit-unleashed/
+    
+Check the Dark
+
+Eğitimleri belirle takvim yap
+
+TCM'i öncele
+
+Soru puanları
+    - Buffer Overflow 25
+    - Write exploit 25
+    - 20
+    - 20
+    - 10
+Not min 70 olmalı
+Lab görevini tamamlarsan 5 puan
