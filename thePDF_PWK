@@ -1,0 +1,44 @@
+1. General Information
+2. Getting Comfortable with Kali Linux
+3. Command Line Fun
+4. Practical Tools
+    - Netcat
+    - Socat
+    - Powershell powercat
+    - Wireshark
+    - TCPDump
+5. Bash Scripting
+6. Passive Information Gathering
+7. Active Information Gathering
+    - DNS enum
+    - port scanning
+    - SMB enum
+    - NFS enum
+    - SMTP enum
+    - SNMP enum
+8. Vulnerability Scanning
+    - nessus??? - yasak değil mi kullanımı?
+    - nmap
+9. Web Application Attacks
+    - web app enum
+    - Tools - dirb, burp, nikto
+    - Exploitation
+        - Exploiting Admin Consoles
+        - Cross-Site Scripting (XSS) 
+        - Directory Traversal Vulnerabilities
+        - File Inclusion Vulnerabilities 
+        - SQL Injection
+10. Introduction to Buffer Overflows
+11. Windows Buffer Overflows
+12. Linux Buffer Overflows
+13. Client-Side Attacks
+14. Locating Public Exploits
+15. Fixing Exploits
+16. File Transfers
+17. Antivirus Evasion
+18. Privilege Escalation
+19. Password Attacks
+20. Port Redirection and Tunneling
+21. Active Directory Attacks
+22. The Metasploit Framework
+23. PowerShell Empire
