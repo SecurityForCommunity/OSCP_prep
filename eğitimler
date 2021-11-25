@@ -10,3 +10,41 @@ TCM Academy
         - Basic exploitation - fena değil
         - walkthroughları özümse
         - buffer overflow - çök
+        - active directory - detaylı anlatılmış - sömür
+        - post exploitation - özet geçilmiş
+            - file transfer
+            - maintaining access
+            - pivoting
+            - cleaning up
+        - web app detay var. ama önce neler dahil onu öğren
+        - wireless'ı hızlı geç
+        - report writing ilgimi çeker
+Python için detaylı - hard core kaçabilir
+    https://www.udemy.com/course/learn-python-and-ethical-hacking-from-scratch/
+
+The Complete Ethical Hacking Bootcamp
+Python için orta ve temel - diğer kursa göre daha iyi
+    - backdoor, bruteforce attacker, keylogger yazdırıyor
+https://www.udemy.com/course/the-complete-ethical-hacking-bootcamp/
+    - Section 9 - System hacking and exploitation
+        - php code injection
+        - msfvenom ile payload oluştur
+        - eternal blue
+        - persistence
+    - Section 7 - web app - seçilebilir
+    - Section 3 - linux basics bakılabilir
+
+The Complete Ethical Hacking Course
+https://www.udemy.com/course/the-complete-ethical-hacking-course/
+    - farklı python codeları yazdırıyor. bakılabilir
+    - web appler çok temel girilmiş
+    
+Web Site Hacking
+https://www.udemy.com/course/the-complete-ethical-hacking-course/
+    - web app kısmı için kullan. hangilerine bakılmalı netleştir
+    
+Tiberius
+Windows Privilege Escalation
+Linux Privilege Escalation
+
+
