@@ -5,3 +5,15 @@ BAK FILE
 
 REVERSE SHELL CHEAT SHEET
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
+
+
+.DB uzantılı databaseler
+sqlite3
+sqlite3 veritabani.db       açar
+.tables                     sütunları verir
+PRAGMA table_info(customers);
+SELECT * FROM customers;
+
+
+SSH KEYLERİNİN BULUNDUĞU YER
+/home/USERNAME/.ssh/id_rsa
