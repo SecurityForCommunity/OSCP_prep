@@ -1,0 +1,11 @@
+Websayfası bulduğunda
+    - içeriği incele
+    - source code incele
+    - subdomain ve pathleri çıkart
+    - tespit ettiğin yeni sayfaları incele
+    - tespit ettiğin yeni sayfaların source code'unu incele
+    - login sayfası bulduğunda bruteforce dene
+        - burp ile yapıyı tespit et
+        - hydra ile http post yap. userlist, passwd list, yapı ve hata kodunu gir
+    - injection yapmayı dene
+    - dosya upload etmeye müsaade eden yer bul. shell yüklemeyi dene
