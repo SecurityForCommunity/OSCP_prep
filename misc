@@ -1,3 +1,7 @@
 BAK FILE
     In computing, ".bak" is a filename extension commonly used to signify a backup copy of a file.
     When a program is about to overwrite an existing file (for example, when the user saves the document they are working on), the program may first make a copy of the existing file, with .bak appended to the filename. This common .bak naming scheme makes it possible to retrieve the original contents of the file. In a similar manner, a user may also manually make a copy of the file before the change and append .bak to the filename.
+
+
+REVERSE SHELL CHEAT SHEET
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
