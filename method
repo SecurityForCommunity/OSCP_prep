@@ -7,5 +7,9 @@ Websayfası bulduğunda
     - login sayfası bulduğunda bruteforce dene
         - burp ile yapıyı tespit et
         - hydra ile http post yap. userlist, passwd list, yapı ve hata kodunu gir
+    - default passwd var mı kontrol et
+    - broken access control var mı? url üzerinden değişiklik yapılınca farklı bilgilere ulaşılabiliyor mu?
     - injection yapmayı dene
     - dosya upload etmeye müsaade eden yer bul. shell yüklemeyi dene
+    - insecure deserialization varsa reverse shell yapabilirsin. THM Owasp10 task 26
+    - teknolojileri bul. zaafiyeti olan var mı ara!
